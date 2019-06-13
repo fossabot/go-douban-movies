@@ -22,13 +22,19 @@ go get -u github.com/linehk/go-douban-movies
 然后进行编译：
 
 ```bash
-go build
+go build -o go-douban-movies
+```
+
+再运行：
+
+```bash
+./go-douban-movies
 ```
 
 ## 使用
 
-1. 获取全部：`GET: http://localhost:8888/api/v1/movies`
-2. 获取部分：`GET: http://localhost:8888/api/v1/movies?s=100&e=200`
+1. 获取全部：GET `http://localhost:8888/api/v1/movies`
+2. 获取部分：GET `http://localhost:8888/api/v1/movies?s=100&e=200`
 
 ## 开源许可证
 

@@ -22,13 +22,19 @@ go get -u github.com/linehk/go-douban-movies
 Then, build it:
 
 ```bash
-go build
+go build -o go-douban-movies
+```
+
+And, run it:
+
+```bash
+./go-douban-movies
 ```
 
 ## Usages
 
-1. Get all:`GET: http://localhost:8888/api/v1/movies`
-2. Get partially：`GET: http://localhost:8888/api/v1/movies?s=100&e=200`
+1. get all: GET `http://localhost:8888/api/v1/movies`
+2. get partially: GET `http://localhost:8888/api/v1/movies?s=100&e=200`
 
 ## License
 
