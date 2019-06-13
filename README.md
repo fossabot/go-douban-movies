@@ -1,6 +1,7 @@
 # go-douban-movies
 
 [![Build Status](https://travis-ci.org/linehk/go-douban-movies.svg?branch=master)](https://travis-ci.org/linehk/go-douban-movies)
+[![codecov](https://codecov.io/gh/linehk/go-douban-movies/branch/master/graph/badge.svg)](https://codecov.io/gh/linehk/go-douban-movies)
 [![Go Report Card](https://goreportcard.com/badge/github.com/linehk/go-douban-movies)](https://goreportcard.com/report/github.com/linehk/go-douban-movies)
 
 [English](./README-en.md "English") | 简体中文
