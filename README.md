@@ -3,33 +3,33 @@
 [![Build Status](https://travis-ci.org/linehk/go-douban-movies.svg?branch=master)](https://travis-ci.org/linehk/go-douban-movies)
 [![Go Report Card](https://goreportcard.com/badge/github.com/linehk/go-douban-movies)](https://goreportcard.com/report/github.com/linehk/go-douban-movies)
 
-English | [简体中文](./README-zh_CN.md "简体中文")
+[English](./README-en.md "English") | 简体中文
 
-go-douban-movies returns the content of [Douban Movie Top 250](https://movie.douban.com/top250 "Douban Movie Top 250") with indented JSON format by the crawler.
+go-douban-movies 通过爬虫将 [豆瓣电影 Top 250](https://movie.douban.com/top250 "豆瓣电影 Top 250") 的内容通过带缩进的 JSON 格式返回给客户端。
 
-## Installation
+## 安装
 
 ```bash
 git clone https://github.com/linehk/go-douban-movies.git
 ```
 
-Or:
+或者：
 
 ```bash
 go get -u github.com/linehk/go-douban-movies
 ```
 
-Then, build it:
+然后进行编译：
 
 ```bash
 go build
 ```
 
-## Usages
+## 使用
 
-1. Get all:`GET: http://localhost:8888/api/v1/movies`
-2. Get partially：`GET: http://localhost:8888/api/v1/movies?s=100&e=200`
+1. 获取全部：`GET: http://localhost:8888/api/v1/movies`
+2. 获取部分：`GET: http://localhost:8888/api/v1/movies?s=100&e=200`
 
-## License
+## 开源许可证
 
 [MIT License](./LICENSE "MIT License")
