@@ -41,10 +41,10 @@ func movies(doc *goquery.Document) []Movie {
 			title := s.Find(".hd a span").Eq(0).Text()
 
 			subtitle := s.Find(".hd a span").Eq(1).Text()
-			subtitle = strings.TrimLeft(subtitle, " / ")
+			subtitle = strings.TrimPrefix(subtitle, " / ")
 
 			otherName := s.Find(".hd a span").Eq(2).Text()
-			otherName = strings.TrimLeft(otherName, "  / ")
+			otherName = strings.TrimPrefix(otherName, "  / ")
 
 			desc := strings.TrimSpace(s.Find(".bd p").Eq(0).Text())
 			DescInfo := strings.Split(desc, "\n")
