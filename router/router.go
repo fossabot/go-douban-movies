@@ -6,7 +6,7 @@ import (
 	"github.com/linehk/go-douban-movies/router/api/v1"
 )
 
-func InitRouter() *gin.Engine {
+func InitRouters() *gin.Engine {
 	r := gin.New()
 	r.Use(gin.Logger())
 	r.Use(gin.Recovery())

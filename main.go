@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	model.Init()
-	r := router.InitRouter()
+	model.InitMovies()
+	r := router.InitRouters()
 	if err := r.Run(":8888"); err != nil {
 		log.Fatalf("run server err: %v", err)
 	}

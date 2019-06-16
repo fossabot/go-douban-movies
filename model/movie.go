@@ -10,21 +10,21 @@ import (
 var baseURL = "https://movie.douban.com/top250"
 
 type Movie struct {
-	Title     string
-	Subtitle  string
-	OtherName string
-	Desc      string
-	Year      string
-	Area      string
-	Tag       string
-	Star      string
-	Comment   string
-	Quote     string
+	Title        string
+	OtherNames   []string
+	Director     string
+	Starring     string
+	Year         int
+	Areas        []string
+	Tags         []string
+	Star         float64
+	CommentCount int
+	Quote        string
 }
 
 var Movies = make([]Movie, 0, 250)
 
-func Init() {
+func InitMovies() {
 	pages := pageURLs(baseURL)
 	for _, page := range pages {
 		url := baseURL + page
