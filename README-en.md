@@ -14,12 +14,6 @@ go-douban-movies returns the content of [Douban Movie Top 250](https://movie.dou
 git clone https://github.com/linehk/go-douban-movies.git
 ```
 
-Or:
-
-```bash
-go get -u github.com/linehk/go-douban-movies
-```
-
 Then, build it:
 
 ```bash

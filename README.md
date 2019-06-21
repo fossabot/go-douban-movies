@@ -14,12 +14,6 @@ go-douban-movies 通过爬虫将 [豆瓣电影 Top 250](https://movie.douban.com
 git clone https://github.com/linehk/go-douban-movies.git
 ```
 
-或者：
-
-```bash
-go get -u github.com/linehk/go-douban-movies
-```
-
 然后进行编译：
 
 ```bash
