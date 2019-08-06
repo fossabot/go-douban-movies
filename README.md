@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/linehk/go-douban-movies.svg?branch=master)](https://travis-ci.org/linehk/go-douban-movies)
 [![codecov](https://codecov.io/gh/linehk/go-douban-movies/branch/master/graph/badge.svg)](https://codecov.io/gh/linehk/go-douban-movies)
 [![Go Report Card](https://goreportcard.com/badge/github.com/linehk/go-douban-movies)](https://goreportcard.com/report/github.com/linehk/go-douban-movies)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flinehk%2Fgo-douban-movies.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flinehk%2Fgo-douban-movies?ref=badge_shield)
 
 [English](./README-en.md "English") | 简体中文
 
@@ -34,3 +35,6 @@ go build -o go-douban-movies
 ## 开源许可证
 
 [MIT License](./LICENSE "MIT License")
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flinehk%2Fgo-douban-movies.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flinehk%2Fgo-douban-movies?ref=badge_large)
