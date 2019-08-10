@@ -33,4 +33,4 @@ go build -o go-douban-movies
 
 ## 开源许可证
 
-[MIT License](./LICENSE "MIT License")
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flinehk%2Fgo-douban-movies.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flinehk%2Fgo-douban-movies?ref=badge_large)
